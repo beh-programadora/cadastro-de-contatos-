@@ -1,0 +1,26 @@
+contatos = []
+
+def adicionar_contato(nome, telefone, email):
+    contatos.append({'nome': nome, 'telefone': telefone, 'email': email})
+    
+def exibir_contatos():
+    for contato in contatos:
+        print(f"Nome: {contato['nome']}, Telefone: {contato['telefone']}, Email: {contato['email']}")
+
+def remover_contato(nome):
+    for contato in contatos:
+        if contato['nome'] == nome:  # Corrigi o acesso ao dicionário
+            contatos.remove(contato)
+            break
+
+# Testando as funções
+adicionar_contato("Alice", "1234-5678", "alice@example.com")
+adicionar_contato("Bob", "8765-4321", "bob@example.com")
+
+print("Contatos antes da remoção:")
+exibir_contatos()
+
+remover_contato("Alice")
+
+print("\nContatos após a remoção de Alice:")
+exibir_contatos()
