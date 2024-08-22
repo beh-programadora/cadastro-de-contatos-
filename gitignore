@@ -1,0 +1,38 @@
+
+### .gitignore
+```plaintext
+# Ignorar arquivos e pastas específicas
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorar arquivos de ambiente virtual
+env/
+venv/
+
+# Ignorar arquivos de configuração específicos de IDEs
+.idea/
+.vscode/
+Enunciado do Projeto
+Título: Gerenciador de Contatos Simples em Python
+
+Objetivo:
+Desenvolver um gerenciador de contatos simples que permita ao usuário adicionar, exibir e remover contatos de uma lista. Cada contato deve conter um nome, telefone e email.
+
+Requisitos:
+
+O gerenciador deve ser implementado em Python.
+O usuário deve poder adicionar contatos com nome, telefone e email.
+O usuário deve poder exibir todos os contatos cadastrados.
+O usuário deve poder remover contatos pelo nome.
+Entregáveis:
+
+Código-fonte do gerenciador de contatos (gerenciador_de_contatos.py).
+Arquivo README.md explicando como executar o gerenciador de contatos e exemplos de uso.
+Arquivo .gitignore para ignorar arquivos desnecessários no repositório.
+Critérios de Avaliação:
+
+Funcionamento correto do gerenciador de contatos.
+Clareza e organização do código.
+Qualidade da documentação no README.md.
